@@ -3,56 +3,56 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
-  const upcomingEvents = [
-    {
-      title: "Ugadi Sambhrama 2026",
-      date: "Saturday, 28 March 2026",
-      location: "Springvale Town Hall",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Kannada Rajyotsava 2025",
-      date: "Saturday, 15 Nov 2025",
-      location: "Box Hill Town Hall",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Annual Sports Meet",
-      date: "Sunday, 12 Oct 2025",
-      location: "TBD",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Cultural Night",
-      date: "Friday, 05 Sept 2025",
-      location: "Springvale Town Hall",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Community Picnic",
-      date: "Sunday, 15 Feb 2025",
-      location: "Botanical Gardens",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Youth Workshop",
-      date: "Saturday, 20 July 2025",
-      location: "Community Center",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Women's Day Celebration",
-      date: "Saturday, 08 March 2025",
-      location: "MKS Hall",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    },
-    {
-      title: "Dasara Festival",
-      date: "Saturday, 04 Oct 2025",
-      location: "Springvale Town Hall",
-      image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
-    }
-  ];
+  // const upcomingEvents = [
+  //   {
+  //     title: "Ugadi Sambhrama 2026",
+  //     date: "Saturday, 28 March 2026",
+  //     location: "Springvale Town Hall",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Kannada Rajyotsava 2025",
+  //     date: "Saturday, 15 Nov 2025",
+  //     location: "Box Hill Town Hall",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Annual Sports Meet",
+  //     date: "Sunday, 12 Oct 2025",
+  //     location: "TBD",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Cultural Night",
+  //     date: "Friday, 05 Sept 2025",
+  //     location: "Springvale Town Hall",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Community Picnic",
+  //     date: "Sunday, 15 Feb 2025",
+  //     location: "Botanical Gardens",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Youth Workshop",
+  //     date: "Saturday, 20 July 2025",
+  //     location: "Community Center",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Women's Day Celebration",
+  //     date: "Saturday, 08 March 2025",
+  //     location: "MKS Hall",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   },
+  //   {
+  //     title: "Dasara Festival",
+  //     date: "Saturday, 04 Oct 2025",
+  //     location: "Springvale Town Hall",
+  //     image: "https://mks.org.au/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-14-at-09.32.28.jpeg"
+  //   }
+  // ];
 
   const images = [
     "https://images.unsplash.com/photo-1605379399642-870262d3d051",
@@ -208,7 +208,7 @@ const Home = () => {
           <div className="gallery-grid">
             {images.map((img, index) => (
               <div key={index} className="gallery-item">
-                <img src={img} alt={`Gallery Image ${index + 1}`} />
+                <img src={img} alt={`Gallery ${index + 1}`} />
               </div>
             ))}
           </div>
@@ -224,3 +224,4 @@ const Home = () => {
 };
 
 export default Home;
+
