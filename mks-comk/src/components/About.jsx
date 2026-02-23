@@ -39,28 +39,28 @@ const About = () => {
     "Our-Story4.png"
   ];
 
-  const committeeData = [
-    {
-      image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design.png",
-      title: "Executive Committee 2023-25",
-      link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design.png",
-    },
-    {
-      image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-1.png",
-      title: "Team Members",
-      link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-1.png",
-    },
-    {
-      image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-2.png",
-      title: "Team Spirit",
-      link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-2.png",
-    },
-    {
-      image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-3.png",
-      title: "Executive Committee 2022",
-      link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-3.png",
-    },
-  ];
+  // const committeeData = [
+  //   {
+  //     image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design.png",
+  //     title: "Executive Committee 2023-25",
+  //     link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design.png",
+  //   },
+  //   {
+  //     image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-1.png",
+  //     title: "Team Members",
+  //     link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-1.png",
+  //   },
+  //   {
+  //     image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-2.png",
+  //     title: "Team Spirit",
+  //     link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-2.png",
+  //   },
+  //   {
+  //     image: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-3.png",
+  //     title: "Executive Committee 2022",
+  //     link: "https://mks.org.au/wp-content/uploads/2025/03/Untitled-design-3.png",
+  //   },
+  // ];
 
   return (
     <>
@@ -267,5 +267,6 @@ const About = () => {
     </>
   );
 };
+
 
 export default About;
